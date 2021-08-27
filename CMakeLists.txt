@@ -25,6 +25,7 @@ vsg_add_option_maintainer(
 )
 
 add_subdirectory(unity2vsg)
+add_subdirectory(UnityProject)
 
 vsg_add_feature_summary()
 

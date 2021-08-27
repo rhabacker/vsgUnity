@@ -1,0 +1,5 @@
+if(NOT CMAKE_INSTALL_DATADIR)
+    set(CMAKE_INSTALL_DATADIR share)
+endif()
+
+install(DIRECTORY Assets Packages ProjectSettings DESTINATION ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/example)
